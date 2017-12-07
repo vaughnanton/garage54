@@ -4,23 +4,29 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
  */
 
-body {
-  background: url("../img/bg.jpg") center center no-repeat;
-  padding-top: 54px;
+body, html {
   text-align: center;
-  color: #fff;
+  color: #000;
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  background: url("../img/bg_desktop.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 1px;
 }
 
 nav {
-  background: #b70000;
+  background: #8a4bd4;
 }
 
 .instagram {
-  margin-top:20%;
+  margin-top:15%;
 }
 
 .contact {
-  margin-top:20%;
+  margin-top:15%;
 }
 
 @media (min-width: 992px) {
