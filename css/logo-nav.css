@@ -30,6 +30,10 @@ nav {
   background: #8a4bd4;
 }
 
+.icon {
+  max-width:25px;
+}
+
 .about {
   margin-top:40px;
 }
