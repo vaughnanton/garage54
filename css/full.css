@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.nav-link {
+  text-align:right;
+  font-family: Gruppo;
+  font-size: 23px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 70%;
+  background: #fff;
+  opacity:.8;
+  overflow: scroll;
+}
+
+.title {
+  padding: 10px;
+}
+
+p {
+  font-family: Gruppo, sans-serif;
+  font-size: 20px;
+  padding: 0 15%;
+  line-height: 3;
+}
+
+nav .navbar .open {
+  margin-bottom: 400px;
+}
