@@ -10,12 +10,16 @@ body {
   transition: background 500ms linear;
 }
 
+.icon {
+  max-width: 70px;
+}
+
 .nav-link {
   text-align:right;
   font-family: Gruppo;
   color:#fff;
   font-size: 23px;
-  padding: 2rem 3rem !important;
+  padding: 2rem !important;
 }
 
 .nav-link:hover {
@@ -27,7 +31,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 95%;
   height: 70%;
   background-image: url('../img/divBG.png');
   background-size: cover;
@@ -36,14 +40,16 @@ body {
 
 .title {
   padding: 20px;
-  max-width: 70%;
+  max-width: 95%;
+  margin-bottom: 2%;
 }
 
 p {
   font-family: Gruppo, sans-serif;
-  font-size: 20px;
-  padding: 0 15%;
-  line-height: 3;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 26px;
+  padding: 0 10%;
+  line-height: 2;
 }
 
 nav .navbar .open {
@@ -84,10 +90,20 @@ nav .navbar .open {
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/blue.jpg') center center / cover no-repeat;
+    background: #000;
   }
 
   .fullscreen-bg__video {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .icon {
+    max-width: 45px;
   }
 }
