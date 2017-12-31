@@ -70,6 +70,10 @@ p {
   line-height: 2;
 }
 
+.purple {
+  color: #d47cee;
+}
+
 nav .navbar .open {
   margin-bottom: 400px;
 }
@@ -125,6 +129,9 @@ nav .navbar .open {
     max-width: 45px;
   }
   .contacts {
-    margin-top: 4%;
+    margin-top: 2%;
+  }
+  .contacts img {
+    margin-top: 8%;
   }
 }
