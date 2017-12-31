@@ -10,6 +10,24 @@ body {
   transition: background 500ms linear;
 }
 
+a {
+  text-decoration:none;
+  color:#fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#d47cee;
+}
+
+.contacts {
+  margin-top:2%;
+}
+
+.contacts img {
+  opacity: .9;
+}
+
 .icon {
   max-width: 70px;
 }
@@ -105,5 +123,8 @@ nav .navbar .open {
   }
   .icon {
     max-width: 45px;
+  }
+  .contacts {
+    margin-top: 4%;
   }
 }
