@@ -44,6 +44,9 @@ a:hover {
   color: #d47cee;
 }
 
+.navbar {
+}
+
 .content {
   position: absolute;
   top: 50%;
@@ -77,8 +80,6 @@ p {
 .purple {
   color: #d47cee;
 }
-
-
 
 .fullscreen-bg {
   position: fixed;
@@ -115,6 +116,7 @@ p {
 @media (max-width: 450px) {
   .fullscreen-bg {
     background: url(../img/mobil.jpg) center center no-repeat #000;
+    background-size: auto;
   }
 
   .fullscreen-bg__video {
@@ -135,5 +137,15 @@ p {
   }
   .contacts img {
     margin-top: 8%;
+  }
+}
+
+@media (max-width: 991px) {
+  .content {
+    top:55%;
+  }
+  #navbarResponsive .nav-item {
+    margin: -20px;
+    line-height:0;
   }
 }
