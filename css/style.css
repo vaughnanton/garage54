@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -841,6 +841,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
+}
+
+.contactLink {
+  margin:0 !important;
+  color: #666666 !important;
+}
+
+.contactLink:hover {
+  color: #03c5ec !important;
+}
+
+.service-title {
+  color: #9403eb !important;
 }
 
 /*--------------------------------------------------------------
