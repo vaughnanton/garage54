@@ -635,6 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .profile .pic {
+  margin-top: 70px;
   border-radius: 50%;
   border: 6px solid #fff;
   margin-bottom: 15px;
@@ -794,4 +795,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 3px;
   font-size: 13px;
   color: #ccc;
+}
+
+@media (max-width: 1200px) {
+  #testimonials .profile .pic {
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #testimonials .profile .pic {
+    display: none;
+  }
+
+  #testimonials .profile h4 {
+    display: none;
+  }
+
+  #testimonials .quote1 {
+    margin-top: 0px !important;
+  }
+
+  #testimonials .quote2 {
+    margin-top: 40px !important;
+  }
 }
