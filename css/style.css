@@ -1,12 +1,5 @@
-/*
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+/* General */
 body {
   background: #fff;
   color: #666666;
@@ -36,8 +29,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* Prelaoder */
-#preloader {
+/* Loader */
+#loader {
   position: fixed;
   left: 0;
   top: 0;
@@ -48,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
-/* Back to top button */
+/* Back Up */
 .back-to-top {
   position: fixed;
   display: none;
@@ -79,10 +72,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Welcome
---------------------------------------------------------------*/
-#hero {
+/* Welcome */
+#pageTop {
   display: table;
   width: 100%;
   height: 100vh;
@@ -90,15 +81,15 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-#hero .hero-logo {
+#pageTop .pageTop-logo {
   margin: 20px;
 }
 
-#hero .hero-logo img {
+#pageTop .pageTop-logo img {
   max-width: 100%;
 }
 
-#hero .hero-container {
+#pageTop .pageTop-container {
   background: rgba(0, 0, 0, 0.7);
   display: table-cell;
   margin: 0;
@@ -107,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
-#hero h1 {
+#pageTop h1 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   letter-spacing: 1px;
@@ -117,34 +108,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #pageTop h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#pageTop h2 {
   color: #999;
   margin-bottom: 50px;
   letter-spacing: 2.3px;
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #pageTop h2 {
     font-size: 24px;
     line-height: 26px;
     margin-bottom: 30px;
   }
-  #hero h2 .rotating {
+  #pageTop h2 .rotating {
     display: block;
   }
 }
 
-#hero .rotating > .animated {
+#pageTop .rotating > .animated {
   display: inline-block;
 }
 
-#hero .actions a {
+#pageTop .actions a {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -157,31 +148,29 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
-#hero .btn-get-started {
+#pageTop .btn-get-started {
   background: #9403eb;
   border: 2px solid #9403eb;
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#pageTop .btn-get-started:hover {
   background: none;
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero .btn-services {
+#pageTop .btn-services {
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero .btn-services:hover {
+#pageTop .btn-services:hover {
   background: #9403eb;
   border: 2px solid #9403eb;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header */
 #header {
   background: #111;
   padding: 20px 0;
@@ -229,10 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.85);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Nav Menu Essentials */
+/* Nav */
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -270,7 +256,6 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 180px;
 }
 
-/* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
 }
@@ -288,7 +273,6 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f105";
 }
 
-/* Nav Meu Container */
 #nav-menu-container {
   float: right;
   margin: 5px 0;
@@ -300,7 +284,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nav Meu Styling */
 .nav-menu a {
   padding: 10px 15px;
   text-decoration: none;
@@ -342,7 +325,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -367,7 +349,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Mobile Nav Styling */
 #mobile-nav {
   position: fixed;
   top: 0;
@@ -439,7 +420,6 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-/* Mobile Nav body classes */
 body.mobile-nav-active {
   overflow: hidden;
 }
@@ -452,11 +432,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
-/* Sections Common
---------------------------------*/
+
+/* Universal Sections */
 .section-title {
   font-size: 32px;
   color: #111;
@@ -478,8 +455,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-/* Get Started Section
---------------------------------*/
+/* About */
 #about {
   background: #fff;
   padding: 80px 0;
@@ -507,59 +483,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-/* Services Section
---------------------------------*/
+/* Services */
 #services {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-/* Subscribe Section
---------------------------------*/
-#subscribe {
+/* Banner */
+#banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-#subscribe .subscribe-title {
+#banner .banner-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#subscribe .subscribe-text {
+#banner .banner-text {
   color: #fff;
 }
 
-#subscribe .subscribe-btn-container {
+#banner .banner-btn-container {
   text-align: center;
   padding-top: 20px;
 }
 
-#subscribe .subscribe-btn {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#subscribe .subscribe-btn:hover {
-  background: #9403eb;
-  border: 2px solid #9403eb;
-}
-
-/* Showroom Section
---------------------------------*/
+/* Showroom Section */
 #showroom {
   background: #f6f6f6;
   padding: 80px 0;
@@ -623,18 +576,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
-/* Testimonials Section
---------------------------------*/
-#testimonials {
+/* Yelp */
+#reviews {
   background: #f6f6f6;
   padding: 80px 0;
 }
 
-#testimonials .profile {
+#reviews .profile {
   text-align: center;
 }
 
-#testimonials .profile .pic {
+#reviews .profile .pic {
   margin-top: 70px;
   border-radius: 50%;
   border: 6px solid #fff;
@@ -644,21 +596,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 260px;
 }
 
-#testimonials .profile .pic img {
+#reviews .profile .pic img {
   max-width: 100%;
 }
 
-#testimonials .profile h4 {
+#reviews .profile h4 {
   font-weight: 700;
   color: #9403eb;
   margin-bottom: 5px;
 }
 
-#testimonials .profile span {
+#reviews .profile span {
   color: #333333;
 }
 
-#testimonials .quote {
+#reviews .quote {
   position: relative;
   background: #fff;
   padding: 60px;
@@ -668,7 +620,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 5px;
 }
 
-#testimonials .quote b {
+#reviews .quote b {
   display: inline-block;
   font-size: 22px;
   left: -9px;
@@ -676,7 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -8px;
 }
 
-#testimonials .quote small {
+#reviews .quote small {
   display: inline-block;
   right: -9px;
   position: relative;
@@ -798,7 +750,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 1200px) {
-  #testimonials .profile .pic {
+  #reviews .profile .pic {
     margin-top: 90px;
     border-radius: 50%;
     border: 6px solid #fff;
@@ -807,25 +759,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 200px;
     width: 200px;
   }
-  #subscribe {
+  #banner {
     padding: 0;
   }
 }
 
 @media (max-width: 1000px) {
-  #testimonials .profile .pic {
+  #reviews .profile .pic {
     display: none;
   }
 
-  #testimonials .profile h4 {
+  #reviews .profile h4 {
     display: none;
   }
 
-  #testimonials .quote1 {
+  #reviews .quote1 {
     margin-top: 0px !important;
   }
 
-  #testimonials .quote2 {
+  #reviews .quote2 {
     margin-top: 40px !important;
   }
 }
