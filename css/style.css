@@ -807,6 +807,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 200px;
     width: 200px;
   }
+  #subscribe {
+    padding: 0;
+  }
 }
 
 @media (max-width: 1000px) {
