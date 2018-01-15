@@ -78,6 +78,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url(../img/pageTop.jpg) top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -486,6 +489,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services */
 #services {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/wrench.jpg") fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -493,8 +499,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Banner */
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  padding: 80px 0;
 }
 
 #banner .banner-title {
@@ -516,64 +524,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #showroom {
   background: #f6f6f6;
   padding: 80px 0;
-}
-
-#showroom .portfolio-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#showroom .portfolio-item .details {
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
-}
-
-#showroom .portfolio-item .details h4 {
-  font-size: 16px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  font-weight: 700;
-  color: #333333;
-}
-
-#showroom .portfolio-item .details span {
-  display: block;
-  color: #666666;
-  font-size: 13px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
-}
-
-#showroom .portfolio-item:hover .details {
-  opacity: 0.8;
-}
-
-#showroom .portfolio-item:hover .details h4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#showroom .portfolio-item:hover .details span {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
 }
 
 /* Yelp */
@@ -633,56 +583,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: -9px;
   position: relative;
   top: 4px;
-}
-
-/* Team Section
---------------------------------*/
-#team {
-  background: #fff;
-  padding: 80px 0 60px 0;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-
-#team .member .pic img {
-  max-width: 100%;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-  color: #9403eb;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 /* Contact Section
@@ -779,5 +679,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #reviews .quote2 {
     margin-top: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer {
+    padding: 15px 0;
+  }
+  #contact {
+    padding: 40px 0;
+  }
+  #reviews {
+    padding: 40px 0;
+  }
+  #showroom {
+    padding: 40px 0;
+  }
+  #services {
+    padding: 40px 0;
+  }
+  #about {
+    padding: 40px 0;
+  }
+  #reviews .quote {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  #pageTop {
+    background-attachment:scroll;
+  }
+  #banner {
+    background-attachment:scroll;
+  }
+  #services {
+    background-attachment:scroll;
   }
 }
