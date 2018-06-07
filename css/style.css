@@ -717,3 +717,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-attachment:scroll;
   }
 }
+
+/*removals*/
+
+#showroom {
+  display:none !important;
+}
+ul li:nth-of-type(3) {
+  display:none !important;
+}
